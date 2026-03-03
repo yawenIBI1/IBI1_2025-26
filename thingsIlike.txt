@@ -1,10 +1,12 @@
-I like coffee
-I like hiking
-I like coding
 I like painting
 I like reading
-I like swimming
+I don't like swimming
 I like movies
 I like music
 I like traveling
 I like cooking
+I like photography
+I like gaming
+I like yoga
+I like writing
+I like dancing
