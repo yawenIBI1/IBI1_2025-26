@@ -1,6 +1,4 @@
-# ----------------------
 # 4.1 Some Simple Math
-# ----------------------
 # Define Scotland's population in different years (unit: million)
 a = 5.08  # Population in 2004
 b = 5.33  # Population in 2014
@@ -19,9 +17,7 @@ print("Is d greater than e?:", d > e)
 # d = 0.25 million, e = 0.22 million. Since d > e, 
 # Scotland's population growth rate is decelerating.
 
-# ----------------------
 # 4.2 Booleans
-# ----------------------
 # Define boolean variables
 X = True
 Y = False
