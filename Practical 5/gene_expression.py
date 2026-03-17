@@ -6,7 +6,7 @@ gene_expr = {
     "EGFR": 15.1,
     "BRCA1": 8.2,
     "PTEN": 5.3,
-    "ESR1": 10.7
+    "ESR1": 10.7 
 }
 print("Initial gene expression dictionary:")
 print(gene_expr)
