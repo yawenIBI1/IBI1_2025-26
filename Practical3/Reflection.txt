@@ -1,0 +1,4 @@
+Reflection on IBI1 Practical 3:
+1. Progress: Successfully set up local Git repo, linked to GitHub and pushed files.
+2. Difficulties: Could not access the original GitHub repo; had confusion with directory structure at first. VS Code auto-login popups also caused push issues, which were fixed by using a PAT token.
+3. Questions: How to better memorise and manage Git directory structure?  
