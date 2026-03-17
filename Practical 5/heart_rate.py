@@ -8,7 +8,7 @@ num_patients = len(heart_rates) # Calculate the length of the list to obtain the
 mean_heart_rate = sum(heart_rates) / num_patients
 print(f"There are {num_patients} patients in the dataset, with a mean heart rate of {mean_heart_rate:.2f} bpm.")
 
-# 3. Categorize and count heart rates
+# 3. Categorize and count heart rates 
 low = 0 
 normal = 0
 high = 0
