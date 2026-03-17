@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # 1. Define population data (2020 and 2024, in millions)
 population_data = {
-    "UK": {"2020": 66.7, "2024": 69.2},
+    "UK": {"2020": 66.7, "2024": 69.2}, 
     "China": {"2020": 1426, "2024": 1410},
     "Italy": {"2020": 59.4, "2024": 58.9},
     "Brazil": {"2020": 208.6, "2024": 212.0},
