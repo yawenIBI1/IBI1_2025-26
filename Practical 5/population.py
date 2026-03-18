@@ -52,7 +52,7 @@ for bar in bars:
     height = bar.get_height() # height of the bar: changes in percentage
     plt.text(
     bar.get_x() + bar.get_width()/2.,  # X coordinate: horizontal center of the bar
-    height + (0.1 if height > 0 else -0.3),  # Y coordinate: offset from the top/bottom of the bar
+    height + (0.1 if height > 0 else -0.1),  # Y coordinate: offset from the top/bottom of the bar
     f'{height:.2f}%',  # Text to display (2 decimal places with percentage sign)
     ha='center',  # Horizontal alignment: center
     va='bottom' if height > 0 else 'top'  # Vertical alignment
