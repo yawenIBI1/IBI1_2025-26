@@ -35,7 +35,7 @@ def calculate_creatinine_clearance(age, weight, gender, cr):
 
 # Store the values of the person's data in variables 
 if __name__ == "__main__":
-    # Example data - you can change these values to test
+    # Example data - we can change these values to test
     patient_age = 50
     patient_weight = 70
     patient_gender = "male"
