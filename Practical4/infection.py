@@ -1,6 +1,4 @@
-# ----------------------
-# Pseudocode
-# ----------------------
+# Pseudocode：
 # 1. Define initial variables: starting infected, growth rate, total students, initial days
 # 2. Print the initial infection status
 # 3. Use a while loop: continue calculating daily infections while infected < total students 
@@ -9,8 +7,7 @@
 # 6. Inside the loop: print the daily infected count
 # 7. After loop ends: print the total number of days required
 # ----------------------
-# Actual Code
-# ----------------------
+# Actual Code：
 # Core variables:
 initial_infected = 5
 growth_rate = 0.4  # 40% growth rate (in a decimal way)
