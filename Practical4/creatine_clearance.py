@@ -4,7 +4,7 @@
 #    - age < 100
 #    - 20 < weight < 80
 #    - 0 < cr < 100
-#    - gender either 'male' or 'female'
+#    - gender either 'male' or 'female' 
 # 3. If validation fails, report exactly which input variable needs correction
 # 4. If validation passes, calculate CrCl using the given formula:
 #    CrCl = ((140 - age) * weight) / (72 * cr) * (0.85 if female)
