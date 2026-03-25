@@ -1,4 +1,4 @@
-# 4.1 Some Simple Math
+# 4.1 
 # Define Scotland's population in different years (unit: million)
 a = 5.08  # Population in 2004
 b = 5.33  # Population in 2014
