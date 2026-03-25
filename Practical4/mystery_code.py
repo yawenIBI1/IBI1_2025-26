@@ -1,7 +1,7 @@
 # What does this piece of code do?
 # Answer:# Answer: This code initializes a sum variable and a counter, then uses a while loop to generate 11 random integers between 1 and 10, accumulates their values, and finally prints the total sum (but the imported ceil function is not used).
 
-# Import libraries
+# Import libraries 
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
 from random import randint  # # Import the randint function to generate random integers
