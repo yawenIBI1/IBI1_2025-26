@@ -7,7 +7,7 @@ def calculate_protein_mass(amino_acid_seq):
         amino_acid_seq (str): String of one-letter amino acid codes.
         
     Returns:
-        float: Total mass of the protein in amu, rounded to 2 decimal places.
+        float: Total mass of the protein in amu, rounded to 2 decimal places. 
         
     Raises:
         ValueError: If any character in the sequence is not a valid standard amino acid.
