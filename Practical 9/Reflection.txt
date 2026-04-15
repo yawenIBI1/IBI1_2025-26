@@ -1,0 +1,7 @@
+Questions: Was it easy? Wasit hard?
+           Were there bits you enjoyed more (or less) than others? 
+           What was the most important thing you learned?
+
+This text was relatively difficult for me. It took me a long time to understand the requirement of this task and think of the logic to precess the code.
+I did feel pleased when I finally find out how was the task going and created effective models. I truly enjoyed the process of solving a problem.
+The most important thing I learn coulg be how to build a model and evaluate future tendency.
