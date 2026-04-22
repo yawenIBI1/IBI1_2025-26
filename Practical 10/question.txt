@@ -1,0 +1,5 @@
+Question: What is the distribution of DALYs across all countries in 2019?
+Code starts at line: 85
+Result: The 2019 DALYs distribution is highly right-skewed. Most countries have relatively low DALYs rates, while a small number of countries have extremely high values (outliers). 
+        There is a large gap between the maximum and minimum values, showing huge global inequality in disease burden. 
+        This matches expectations: low-income countries usually have much higher disease burden than high-income countries.
