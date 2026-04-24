@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # ====================== 3 Importing a dataset ======================
-os.chdir(os.path.expanduser("~/Desktop/Practical 10"))
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Check working directory 
 print("Current working directory:", os.getcwd()) # "getcwd" equals to "pwd"
