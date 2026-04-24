@@ -91,7 +91,7 @@ target = max_country
 data = dalys_data.loc[dalys_data["Entity"] == target]
 
 plt.figure(figsize=(8,5))
-plt.plot(data.Year, data.DALYs, 'b+', label=target)
+plt.plot(data.Year, data.DALYs, 'b+', label=target) # 'b+-' to aquire full line
 plt.xticks(data.Year, rotation=-90)
 plt.title(f"DALYs over time in {target} (2019 highest)")
 plt.xlabel("Year")
