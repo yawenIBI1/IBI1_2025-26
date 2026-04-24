@@ -86,7 +86,7 @@ min_country = recent_data.loc[min_idx, "Entity"]
 print(f"\n# 2019 highest DALYs: {max_country}")
 print(f"# 2019 lowest DALYs: {min_country}")
 
-# Plot for MAX or MIN country (required by portfolio)
+# Plot for MAX or MIN country 
 target = max_country
 data = dalys_data.loc[dalys_data["Entity"] == target]
 
