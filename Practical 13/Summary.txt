@@ -1,0 +1,22 @@
+Practical 13: Sequence Alignment of DLX5 Proteins
+
+1. Protein Basic Information
+The human DLX5 protein (UniProt ID: P56178) is 289 amino acids long. As a homeobox transcription factor, its primary subcellular location is the nucleus, where it regulates gene expression during bone development.
+
+2. BLAST Search Results
+The BLAST search (restricted to Eutheria) returned 250 hits, with percentage identities ranging from 83.2% to 100%. The highest identity (100%) corresponds to the human DLX5 protein itself, while the lowest (83.2%) represents divergent orthologs in other placental mammals.
+
+3. Python Non-Gapped Global Alignment Results
+Three pairwise alignments were performed using the BLOSUM62 matrix:
+- Human DLX5 vs Mouse DLX5: The alignment yielded a high BLOSUM62 score of 1490 and an identity of 96.54%, indicating strong evolutionary conservation between the two orthologs.
+- Human DLX5 vs Random Sequence: The alignment produced a negative score of -319 and an identity of only 4.50%, consistent with random chance.
+- Mouse DLX5 vs Random Sequence: The alignment produced a negative score of -327 and an identity of only 4.50%, confirming no significant similarity to the random sequence.
+
+4. Conclusion
+The human and mouse DLX5 sequences are clearly the most closely related pair in this comparison. The high similarity observed in both BLAST and Python alignment results confirms their orthologous relationship, while the random sequence serves as a negative control, ruling out random matching as a cause of the high similarity.
+
+task6-analysis:
+The results show that the human and mouse DLX5 sequences are extremely similar, with a very high BLOSUM62 score (1490) and an identity of 96.54%. 
+In stark contrast, both human and mouse DLX5 have very low similarity to the random sequence, with negative BLOSUM62 scores (-319 and -327) and identities of only 4.50%. 
+These negative scores and low identities are consistent with what would be expected from random chance, confirming that the high similarity between human and mouse DLX5 is not due to random matching, but reflects a true evolutionary relationship. 
+The human and mouse sequences are therefore far more closely related to each other than either is to the random sequence.
