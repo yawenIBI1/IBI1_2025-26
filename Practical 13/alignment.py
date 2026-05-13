@@ -53,13 +53,13 @@ def pairwise_non_gapped_alignment(seq1, seq2, blosum_matrix):
     return total_score, identity_percent
 
 if __name__ == "__main__":
-    # 1. Read all input files (fully matches your filenames)
+    # 1. Read all input files 
     human_name, human_seq = read_fasta("human_DLX5.fasta")
     mouse_name, mouse_seq = read_fasta("mouse_DLX5.fasta")
     random_name, random_seq = read_fasta("random_DLX5.fasta")
     blosum = load_blosum62("BLOSUM62.txt")
 
-    # 2. Perform three sets of alignments (fully meets task requirements)
+    # 2. Perform three sets of alignments 
     print("="*60)
     print("          Task4: Global Pairwise Sequence Alignment Without Gaps")
     print("="*60)
